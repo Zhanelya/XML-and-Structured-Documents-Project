@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Group1: Soham Amrish Trivedi, Zhanelya Subebayeva -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="listOfNumbers" type = "numList"/>
+    <xs:simpleType name="numList">
+        <xs:list itemType="xs:integer"/>
+    </xs:simpleType>    
+</xs:schema>
