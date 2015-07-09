@@ -10,6 +10,6 @@ to Algorithms (MIT 1994), Chapter 6.
 
 • An XSLT stylesheet which includes the named functions Heapify, Build-Heap, and Heapsort which implement the algorithms with those names defined in Cormen et al.. The stylesheet should be applied to documents with the schema defined (a list of integers). It should output documents with the same schema, but sorted, using the heapsort algorithm.
 
-• Test data that used to verify that the algorithm functions correctly.
+• Test data that is used to verify that the algorithm functions correctly.
 
 Please check the pdf report for a complete guide
