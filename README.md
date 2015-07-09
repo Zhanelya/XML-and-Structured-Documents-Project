@@ -8,26 +8,7 @@ to Algorithms (MIT 1994), Chapter 6.
 
 • An XML Schema which defines the heap data structure.
 
-• An XSLT stylesheet which includes the named functions Heapify, Build-Heap, and Heapsort which implement the algorithms with those names defined in Cormen et al.. The stylesheet should
-be applied to documents with the following schema:
-
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
-
-<xs:element name="listOfNumbers" type="numList"/>
-
-<xs:simpleType name="numList">
-
-<xs:list itemType="xs:integer"/>
-
-</xs:simpleType>
-
-</xs:schema>
-
-
-This represents a list of integers. It should output documents with the same schema, but sorted,
-using the heapsort algorithm.
+• An XSLT stylesheet which includes the named functions Heapify, Build-Heap, and Heapsort which implement the algorithms with those names defined in Cormen et al.. The stylesheet should be applied to documents with the schema defined (a list of integers). It should output documents with the same schema, but sorted, using the heapsort algorithm.
 
 • Test data that used to verify that the algorithm functions correctly.
 
